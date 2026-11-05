@@ -5,3 +5,10 @@ D:\SIT11\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.csproj.AssemblyRefe
 D:\SIT11\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.csproj.CoreCompileInputs.cache
 D:\SIT11\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.exe
 D:\SIT11\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.pdb
+D:\SIT11Frontend\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.csproj.AssemblyReference.cache
+D:\SIT11Frontend\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.csproj.CoreCompileInputs.cache
+D:\SIT11Frontend\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.exe
+D:\SIT11Frontend\RestaurantApp\RestaurantApp\obj\Debug\RestaurantApp.pdb
+D:\SIT11Frontend\RestaurantApp\RestaurantApp\bin\Debug\RestaurantApp.exe.config
+D:\SIT11Frontend\RestaurantApp\RestaurantApp\bin\Debug\RestaurantApp.exe
+D:\SIT11Frontend\RestaurantApp\RestaurantApp\bin\Debug\RestaurantApp.pdb

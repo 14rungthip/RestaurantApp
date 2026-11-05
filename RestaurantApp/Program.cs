@@ -17,22 +17,28 @@ namespace RestaurantApp
                     new Restaurant(2 ,"Donglaishun Hot Pot", "Hot Pot", 4.6),
                     new Restaurant(3,"Din Tai Fung", "Taiwanese Cuisine", 4.7),
                 };
-        }
+            foreach (Restaurant res in restaurants) 
+            {
+                Console.WriteLine($"ID: {res.Id} | ร้าน: {res.Name} | ประเภท: {res.Type} | คะแนน: {res.Rating}");
+            }
+       
     }
-    class Restaurant
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Type {  get; set; }
-        public double Rating { get; set; }
-
-      
-        public Restaurant(int id, string name, string type, double rating)
+        class Restaurant
         {
-            this.Id = id;
-            this.Name = name;
-            this.Type = type;
-            this.Rating = rating;
+            public int Id { get; set; }
+            public string Name { get; set; }
+            public string Type { get; set; }
+            public double Rating { get; set; }
+
+
+            public Restaurant(int id, string name, string type, double rating)
+            {
+                this.Id = id;
+                this.Name = name;
+                this.Type = type;
+                this.Rating = rating;
+            }
+
         }
     }
 }
