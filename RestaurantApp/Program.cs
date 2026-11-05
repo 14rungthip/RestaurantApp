@@ -23,8 +23,15 @@ namespace RestaurantApp
             {
                 Console.WriteLine($"ID: {res.Id} | ร้าน: {res.Name} | ประเภท: {res.Type} | คะแนน: {res.Rating}");
             }
-       
-    }
+            int totalres = restaurants.Count;
+
+            double averageRating = restaurants.Average(r => r.Rating);
+
+            Console.WriteLine("===== สรุปร้านทั้งหมด =====");
+            Console.WriteLine("จำนวนร้าน: " + totalres);
+            Console.WriteLine("คะแนนเฉลี่ยของร้าน: " + averageRating.ToString("0.00"));
+
+        }
         class Restaurant
         {
             public int Id { get; set; }
